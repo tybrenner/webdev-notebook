@@ -4,11 +4,13 @@ article{
   width: 20rem;
   background-color: ivory;
   margin-top:2rem;
-  margin-left:15%;
+  margin-left:2rem;
+  margin-right:2rem;
   padding: 1rem;
 }
-.flexContainer{
+.content{
   display:flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  flex-wrap:wrap;
 }
