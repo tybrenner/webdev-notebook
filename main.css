@@ -1,16 +1,48 @@
+html{
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top:3rem;
+  background-color: limegreen;
+}
+
 article{
   border: 1px solid grey;
-  border-radius: 3px;
-  width: 20rem;
-  background-color: ivory;
-  margin-top:2rem;
-  margin-left:2rem;
-  margin-right:2rem;
+  border-radius: 6px;
+  width: auto;
+  background-color: hotpink;
+  margin-top:1rem;
+  margin-left:10rem;
+  margin-right:10rem;
   padding: 1rem;
+}
+
+h2{
+text-align: center;
+margin-top:7rem;
+}
+
+.mainNav {
+  align-items: center;
+  display: inline ;
+  margin-top: -2rem;
+  position: fixed;
+}
+
+.pageNav li{
+  display: inline;
 }
 .content{
   display:flex;
   flex-flow: row wrap;
   justify-content: space-around;
   flex-wrap:wrap;
+}
+.flexContainer{
+  display: flex;
+  flex-flow: column;
+}
+.copyright{
+display: flex;
+align-items: center;
+justify-content: center;
 }
